@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:hsl(30, 54%, 90%) ;
+    font-size: 11px;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Young Serif', serif;
+   
+}
+.para{
+    padding:12px;
+}
+.container{
+    width: 410px;
+    margin:0 auto;
+    background-color: hsl(0, 0%, 100%);
+    padding:20px;
+    border-radius: 15px;
+    margin-top: 5%;;
+}
+.container img{
+    width:100%;
+    border-radius: 5px;
+}
+.para h1{
+    padding:5px;
+   font-family: 'Young Serif', serif;  
+}
+.para p{
+    padding:5px;
+    color: hsl(30, 10%, 34%);
+}
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding:15px;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+.preparation h3,.preparation ul{
+    color:hsl(332, 51%, 32%);
+    padding:2px;
+}
+.preparation ul,li{
+    padding:3px 15px;
+    color:hsl(30, 10%, 34%);
+}
+.prep{
+    color: hsl(24, 5%, 18%);
+}
+.ingredients ,.ingredients ul,h2 {
+    color:hsl(14, 45%, 36%);
+    margin-bottom: 10px;
+    padding:2px;
+
+}
+.ingredients li{
+    margin:0 16px;
+    
+}
+.ing{
+    color:hsl(30, 10%, 34%);
+}
+.instructions,.nutrition{
+    border-top:1px solid hsl(30, 18%, 87%);
+}
+.instructions{
+    padding-top: 15px;
+    padding-bottom: 15px;;
+}
+.items{
+    display:flex;
+   color:hsl(30, 10%, 34%);
+}
+.num{
+margin-top: 5px;
+color:hsl(332, 51%, 32%);
+}
+.num1{
+    color: hsl(24, 5%, 18%);
+}
+.nutrition{
+    padding-top:17px;
+}
+.nut{
+   display:flex;
+   padding:10px;
+}
+.nut-1{
+    color:hsl(30, 10%, 34%);
+    margin-left:5%;
+    flex-grow: 1;
+    width:154px;
+}
+.nut-2{
+    color:hsl(14, 45%, 36%);
+    margin-left:20%;
+    flex-grow: 1;
+}
+.nut1{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+   padding:10px;
+}
+@media screen and (max-width:425px)
+{
+    
+.container{
+    margin:0;
+    padding:0;
+    border-radius: 0;
+}
+.para{
+padding:12px;
+}
+.preparation{
+    padding:px;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+}
